@@ -99,4 +99,17 @@ module.exports = {
     dustThreshold: 0,
     isPoS: true
   },
+  
+   ravencoin: {
+    messagePrefix: "\x18Ravencoin Signed Message: \n",
+    bech32: "rvn", // not known
+    bip32: {
+      public:  0x0488b21e,
+      private: 0x0488ade4,
+    },
+    pubKeyHash: 0x3c,
+    scriptHash: 0x7a,
+    wif: 0x80,
+    isPoS: false
+    },
 }
